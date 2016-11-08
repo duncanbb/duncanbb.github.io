@@ -1,53 +1,90 @@
 <html>
   <head>
+    <img src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/2005/s300/logo-emblem-red-1000-1-.jpg"/>
+    <nav>
+      <ul>
+        <li> <a href="#ingredients">Ingredients </a> </li>
+        <li> <a href="#description">Description </a> </li>
+        <li> <a href="#directions">Directions </a> </li>
+        <li> <a href="#comments">Comments </a> </li>
+      </ul>
+    </nav>
     <title> Duncan Beebe's recipe</title>
   </head>
   <body>
     <h1> Recipe for Disaster Cake</h1>
     <h2> Everyone is going to hate it </h2>
-    <ul>
-      <li> <a href="#ingredients">Ingredients </a> </li>
-      <li> <a href="#description">Description </a> </li>
-      <li> <a href="#directions">Directions </a> </li>
-      <li> <a href="#comments">Comments </a> </li>
-    </ul>
-
-    <h2> Ingreatients </h2>
-    <ul>
-      <a name="ingredients"/>
-      <li> 7 or whatever, broken eggs with shells </li>
-      <li> salt, or sugar a cup or three </li>
-      <li> rum </li>
-      <li> box of painter's nails </li>
-      <li> chalk to dust the finished cake with </li>
-      <li> icing or whipped cream - white paint is okay too </li>
-    </ul>
 
 
+
+
+    <aside>
+      <h2> Ingreatients </h2>
+      <ul>
+        <a name="ingredients"/>
+        <li> 7 or whatever, broken eggs with shells </li>
+        <li> salt, or sugar a cup or three </li>
+        <li> rum </li>
+        <li> box of painter's nails </li>
+        <li> chalk to dust the finished cake with </li>
+        <li> icing or whipped cream - white paint is okay too </li>
+      </ul>
+    </aside>
 
       <a name="directions"/>
       <h2> Misdirections </h2>
-    <p> You're going to whisk up those eggs you got,
-    if they won't crack and they're green--you got avocados
-     but the good news is you can't make this cake wrong
-     unless you make it well </p>
-
-
+    <ul>
+      <li> You're going to whisk up those eggs you got, if they won't crack and they're green--you got avocados but the good news is you can't make this cake wrong unless you make it well
+      </li>
+      <li> Preheat the oven to 600 degrees for seventeen hours and forty-seven minutes
+      </li>
+      <li> Put the cake on a glass plate and set it in there. Wait until plate melts.
+      </li>
+      <li> Pour paint into bowl and let surface dry. Later we will chip this off to look like icing.
+      </li>
+      <li> Many bakers taste as they bake. Do not taste this recipe. It just isn't worth it.
+      </li>
+    </ul>
+    <section>
+      <form action="/reviews" method="post">
+        <label for ="name">Name</label>
+        <input id="name" type="text" name = "name">
+        <label for ="rating">Rating</label>
+        1<input type="radio" name="rating" value="1" checked>
+        2<input type="radio" name="rating" value="2" >
+        3<input type="radio" name="rating" value="3" >
+        4<input type="radio" name="rating" value="4" >
+        5<input type="radio" name="rating" value="5" >
+        <label for="cooking_expertise">Cooking Expertise </label>
+        <select expertise="chef[skill_level]" id = cookinglevel">
+          <option value="nil" disabled="true" selected="true">Select Cooking Expertise</option>
+          <option value="sometimes">Sometimes Cook</option>
+          <option value="everyday">Cook Everyday</option>
+          <option value="hobbyist">Cooking is a Hobby</option>
+          <option value="professional">Professional Chef</option>
+        </select>
+        <br>
+        <label>Review
+          <textarea name="review" cols="30" rows="10"></textarea>
+        </label>
+        <input type="submit" value="Submit Review">
+      </form>
+    </section>
      <a name="description"/>
      <p> the worst way to make a cake, although I'm interested in worsening it
-      <a href="https://en.wikipedia.org/wiki/Fruitcake">A sample cake</a>
     </p>
-
-
-
-
-
-
-    <h5> How your cake should look: </h5>
-    <img src="http://i0.wp.com/newsexaminer.net/wp-content/uploads/2015/04/ruined-wedding-cake-750x400.jpg?resize=750%2C400" alt="totally intact cake"/>
-
-
-    <a name="comments"/>
-    <p> keep praise for this recipe to yourself. it's attributed to Napoleon's uncle who he beat to tears at the age of four</p>
+    <section>
+      <figure>
+        <img src="http://i0.wp.com/newsexaminer.net/wp-content/uploads/2015/04/ruined-wedding-cake-750x400.jpg?resize=750%2C400" alt="totally intact cake"/>
+      </figure>
+      <figcaption>
+          How your cake should look.
+          <a href="https://en.wikipedia.org/wiki/Fruitcake">A sample cake</a>
+      </figcaption>
+    </section>
+      <a name="comments"/>
+      <footer>
+        <p> keep praise for this recipe to yourself. it's attributed to Napoleon's uncle who he beat to tears at the age of four</p>
+      </footer>
   </body>
 </html>
