@@ -40,7 +40,7 @@ var createReview = function(event) {
 };
 
 var getName = function(event) {
-  return event.target.children.name;
+  return event.target.children.name.value;
 };
 
 var getRating = function(event) {
