@@ -13,6 +13,19 @@ html {
   background: cornsilk;
 }
 
+section {
+  width: 700px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+aside {
+  width: 180px;
+  display: inline-block;
+  margin-right: 15px;
+
+}
+
 input[type='radio'] {
   -webkit-appearance: none;
   cursor: pointer;
@@ -29,6 +42,8 @@ input[type="radio"]:checked {
 
 body {
   font-family: Arial, sans-serif;
+  width: 900px;
+  margin: 0 auto;
 }
 
 h1 {
@@ -39,9 +54,32 @@ h2 {
     font-size: 32px;
 }
 
+nav {
+  display: inline-block;
+  float: right;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  display: block;
+  padding: 20px;
+}
+
 .ingredients-list {
     list-style: square inside;
 }
+
+.ingredients-list li {
+  margin: 15px 0px;
+}
+
+.directions li {
+  margin: 15px 0px;
+}
+
 header > img  {
     width: 100px;
 }
@@ -64,4 +102,17 @@ input:last-child:hover {
 
 h2 + .user_review {
   border-top: 1px solid black;
+}
+
+select {
+  margin: 10px 0;
+  width: 180px;
+}
+
+label {
+  display: block;
+}
+
+textarea {
+  width: 350px;
 }

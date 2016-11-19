@@ -7,9 +7,6 @@
   <body>
     <header>
         <img src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/2005/s300/logo-emblem-red-1000-1-.jpg"/>
-
-    <h1> Crispy Kale Salad with Lime Dressing</h1>
-    <h2> from Battersby </h2>
       <nav>
         <ul>
           <li> <a href="#ingredients">Ingredients </a> </li>
@@ -21,7 +18,7 @@
     </header>
     <aside>
       <h2> Ingredients </h2>
-      <ul>
+      <ul class="ingredients-list">
         <a name="ingredients"/>
         <li> 1 1/2 tablespoons (packed) palm sugar or light brown sugar </li>
         <li> 1/4 cup fresh lime juice </li>
@@ -30,7 +27,7 @@
         <li> 1/2 red Thai chile or 1/4 red jalapeño, seeded, thinly sliced </li>
         <li> 1 tablespoon vegetable oil </li>
         <li> Kosher salt and freshly ground black pepper </li>
-        <li> 3 cups (loosely packed) mixed tender herbs (such as cilantro, mint, and basil) </li>
+        <li> 3 cups mixed tender herbs (cilantro, mint, and basil) </li>
         <li> 3 cups mixed shaved vegetables (such as carrots, beets, and radishes) </li>
         <li> 2 cups pea tendrils, watercress, or baby arugula </li>
         <li> 2 cups thinly sliced stemmed Tuscan kale leaves (from 1 bunch) </li>
@@ -39,15 +36,16 @@
     </aside>
     <section>
       <figure>
+        <h1> Crispy Kale Salad with Lime Dressing</h1>
+        <h2> from Battersby </h2>
         <img src="assets/kale_salad.png" alt="totally sick salad bro"/>
       </figure>
       <figcaption>
           How your salad should look.
       </figcaption>
-    </section>
       <a name="directions"/>
       <h2> Directions </h2>
-    <ul>
+    <ul class="directions">
       <li>Microwave sugar and 2 Tbsp. water on high in a medium microwave-safe bowl until sugar is dissolved, about 30 seconds.</li>
       <li>Let cool. Whisk in next 4 ingredients for dressing. Set aside.</li>
       <li>Arrange racks in upper and lower thirds of oven; preheat to 250°.</li>
@@ -57,34 +55,28 @@
       <li>Mix herbs and remaining 4 ingredients with 6 Tbsp. dressing in a large bowl.</li>
       <li>Divide salad among plates; top with crispy kale leaves and drizzle remaining dressing over.</li>
     </ul>
-    <section>
+
+    <a name="reviews">
       <form action="/reviews" method="post">
         <label for ="name">Name</label>
         <input id="name" type="text" name = "name">
-        <label for ="rating">Rating</label>
         1<input type="radio" name="rating" value="1" checked>
         2<input type="radio" name="rating" value="2" >
         3<input type="radio" name="rating" value="3" >
         4<input type="radio" name="rating" value="4" >
         5<input type="radio" name="rating" value="5" >
-        <label for="cooking_expertise">Cooking Expertise </label>
-        <select expertise="chef[skill_level]" id = "cookinglevel">
-          <option value="nil" disabled="true" selected="true">Select Cooking Expertise</option>
-          <option value="sometimes">Sometimes Cook</option>
-          <option value="everyday">Cook Everyday</option>
-          <option value="hobbyist">Cooking is a Hobby</option>
-          <option value="professional">Professional Chef</option>
-        </select>
         <br>
         <label>Review
+        <br>
           <textarea name="review" cols="30" rows="10"></textarea>
         </label>
         <input type="submit" value="Submit Review">
+          <a name="comments"/>
       </form>
     </section>
-      <a name="comments"/>
+
       <footer>
-        <p> keep praise for this recipe to yourself. it's already gotten enough</p>
+        <p>keep praise for this recipe to yourself. it's already gotten enough</p>
       </footer>
   </body>
 </html>
