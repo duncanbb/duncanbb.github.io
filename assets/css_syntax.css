@@ -9,6 +9,9 @@ html, body, section, h1, h2, header, img, ol, .user_review {
 
   background: transparent;
 }
+body {
+  background-color: gray;
+}
 
 input[type='radio'] {
   -webkit-appearance: none;
