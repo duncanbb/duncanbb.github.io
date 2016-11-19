@@ -1,3 +1,29 @@
+html, body, section, h1, h2, header, img, ol, .user_review {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  font: inherit;
+  text-align: inherit;
+  text-decoration: inherit;
+  color: inherit;
+
+  background: transparent;
+}
+
+input[type='radio'] {
+  -webkit-appearance: none;
+  cursor: pointer;
+  outline: none;
+  width: 27px;
+  height: 27px;
+  background-image: url(../assets/stars.png);
+  vertical-align: bottom;
+}
+
+input[type="radio"]:checked {
+  background-position: 30px 30px;
+}
+
 body {
   font-family: Arial, sans-serif;
 }
@@ -23,4 +49,16 @@ ol {
 .user_review h4 {
   font-size: 28px;
   font-weight: bold;
+}
+
+input:last-child {
+  background-color: gold;
+}
+
+input:last-child:hover {
+  -webkit-filter: brightness(90%);
+}
+
+h2 + .user_review {
+  border-top: 1px solid black;
 }
