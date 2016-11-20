@@ -1,0 +1,40 @@
+@media all and (max-width: 900px) {
+}
+.hamburger-dropdown {
+  display: none;
+}
+@media all and (max-width: 900px) {
+  nav ul {
+    display: none;
+  }
+  .hamburger-dropdown {
+    display: block;
+    float: right;
+  }
+  .hamburger-dropdown > li {
+    background: url("hamburger.png");
+    background-repeat: no-repeat;
+    background-size: 35px 35px;
+
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+  }
+  .hamburger-dropdown ul {
+    position: relative;
+    direction: rtl;
+    top: 15px;
+    flex-direction: column;
+    cursor: pointer;
+    box-shadow: black 10px 10px 10px;
+    opacity: 0;
+  }
+
+  .hamburger-dropdown:hover ul {
+    opacity: 1;
+    transition: 1s;
+    background: ghostwhite;
+  }
+
+
+};

@@ -1,0 +1,11 @@
+html, body, section, h1, h2, header, img, ol, .user_review {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  font: inherit;
+  text-align: inherit;
+  text-decoration: inherit;
+  color: inherit;
+
+  background: transparent;
+}
