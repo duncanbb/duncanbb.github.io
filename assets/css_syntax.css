@@ -124,6 +124,10 @@ select {
   width: 180px;
 }
 
+h2 + .user_review {
+    border-top: 1px solid black;
+}
+
 label {
   display: block;
 }
