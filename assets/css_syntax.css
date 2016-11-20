@@ -124,8 +124,9 @@ select {
   width: 180px;
 }
 
-ol li:nth-of-type(2n) {
-  background-color: aqua;
+.directions li:nth-of-type(2n) {
+  background-color: whitesmoke;
+  margin: 10px 0;
 }
 
 label {
