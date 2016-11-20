@@ -10,7 +10,7 @@ html, body, section, h1, h2, header, img, ol, .user_review {
   background: transparent;
 }
 html {
-  background: whitesmoke;
+  background: mintcream;
 }
 
 .aa_image  {
@@ -124,8 +124,8 @@ select {
   width: 180px;
 }
 
-h2 + .user_review {
-    border-top: 1px solid black;
+ol li:nth-of-type(2n) {
+  background-color: whitesmoke;
 }
 
 label {
