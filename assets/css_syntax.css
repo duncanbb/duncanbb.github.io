@@ -10,21 +10,32 @@ html, body, section, h1, h2, header, img, ol, .user_review {
   background: transparent;
 }
 html {
-  background: cornsilk;
+  background: whitesmoke;
 }
 
-section {
-  width: 700px;
+.aa_image  {
+  float: left;
+}
+
+
+.group:after {
+  content:"";
+  display: block;
+  clear: both;
+}
+
+.col_col_1_3 {
+  width: 20%;
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.col_col_2_3 {
+  width: 77%;
   display: inline-block;
   vertical-align: top;
 }
 
-aside {
-  width: 180px;
-  display: inline-block;
-  margin-right: 15px;
-
-}
 
 input[type='radio'] {
   -webkit-appearance: none;
@@ -42,7 +53,6 @@ input[type="radio"]:checked {
 
 body {
   font-family: Arial, sans-serif;
-  width: 900px;
   margin: 0 auto;
 }
 
@@ -76,6 +86,10 @@ nav ul li a {
   margin: 15px 0px;
 }
 
+footer {
+
+}
+
 .directions li {
   margin: 15px 0px;
 }
@@ -98,6 +112,7 @@ input:last-child {
 
 input:last-child:hover {
   -webkit-filter: brightness(90%);
+  cursor: pointer;
 }
 
 h2 + .user_review {
@@ -115,4 +130,5 @@ label {
 
 textarea {
   width: 350px;
+  display: block;
 }
