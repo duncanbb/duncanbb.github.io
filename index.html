@@ -1,1 +1,175 @@
-Hello World
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Duncan Beebe Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon.png">
+		<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+		<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+		<link rel="manifest" href="/manifest.json">
+		<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+		<meta name="theme-color" content="#ffffff">
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body id="top">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="#" class="image avatar"><img src="images/profile_pic.jpg" alt="" /></a>
+					<h1><strong>I am Duncan Beebe</strong>,<br />
+					a software engineer based in<br />
+					New York City.</h1>
+				</div>
+			</header>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- One -->
+					<section id="one">
+						<header class="major">
+							<h2>About Me</h2>
+						</header>
+						<p>I am a software engineer with experience in Ruby on Rails, JavaScript, React.js, Redux, jQuery and SQL. I grew up taking apart important household appliances and usually successfully reassembling them. I love understanding how things work and am fascinated by when they don't. In my spare-time I write or rock-climb, both of which provide ample problem-solving opportunities. I'm interested in companies with an emphasis on teamwork and learning.</p>
+						<ul class="actions">
+							<li><a href="assets/resources/resume.pdf" class="button">Resume</a></li>
+						</ul>
+					</section>
+
+				<!-- Two -->
+					<section id="two">
+						<h2>Recent Work</h2>
+						<div class="row">
+							<article class="6u 12u$(xsmall) work-item">
+								<a href="images/fulls/connect-screen.png" class="image fit thumb"><img src="images/thumbs/connect-screen-thumb.png" alt="" /></a>
+								<h3>Connect [Rails, ReactJS, Redux, PostgreSQL]</h3>
+								<p>A single-page web application for users to create, delete, view, and follow stories, inspired by Medium</p>
+								<br>
+								<p>
+									<ul class='project_description'>
+										<li>Designed and implemented frontend and backend authentication systems</li>
+										<li>Eliminated N+1 queries by eager loading associations for JSON views</li>
+										<li>Optimized page load by resizing images via Paperclip, and serving via AWS S3</li>
+									</ul>
+								</P>
+								<a class='project_a'href="http://www.connect-app.org/">Live</a>
+								<a class='project_a'href="https://github.com/duncanbb/connect">Github</a>
+							</article>
+							<article class="6u$ 12u$(xsmall) work-item">
+								<a href="images/fulls/dollar-dom.png" class="image fit thumb"><img src="images/thumbs/dollar-dom.png" alt="" /></a>
+								<h3>Dollar-DOM [JavaScript]</h3>
+								<p>Lightweight JavaScript library in the spirit of jQuery</p>
+								<br>
+								<p>
+									<ul class='project_description'>
+										<li>Designed to manage core DOM manipulation functionality, makes AJAX requests and adds event handlers via native DOM API</li>
+									</ul>
+								</p>
+								<a class='project_a'href="https://github.com/duncanbb/Dollar_DOM">Github</a>
+							</article>
+							<article class="6u 12u$(xsmall) work-item">
+								<a href="images/fulls/tetris.jpg" class="image fit thumb"><img src="images/thumbs/tetris.jpg" alt="" /></a>
+								<h3>Tetris [JavaScript, jQuery]</h3>
+								<p>A custom made ORM that builds relational objects across multiple tables, inspried by ActiveRecord.
+								</p>
+								<br>
+								<p>
+									<ul class='project_description'>
+										<li>DRYed up code through object-oriented design principles</li>
+										<li>Tracked game state and visual representation separately to avoid bugs</li>
+									</ul>
+								</p>
+								<a class='project_a'href="https://github.com/duncanbb/tetris">Github</a>
+							</article>
+						</div>
+						<!-- <ul class="actions">
+							<li><a href="#" class="button">Full Portfolio</a></li>
+						</ul> -->
+					</section>
+
+					<section id='skills'>
+						<h2>Skills</h2>
+						<ul class='skills-list group'>
+							<li><img src="images/thumbs/ruby.jpeg"/><h3>Ruby</h3></li>
+							<li><img src="images/thumbs/rails.png"/><h3>Rails</h3></li>
+							<li><img src="images/thumbs/rspec.png"/><h3>RSpec</h3></li>
+							<li><img src="images/thumbs/react.png"/><h3>React</h3></li>
+							<li><img src="images/thumbs/jquery.jpeg"/><h3>jQuery</h3></li>
+							<li><img src="images/thumbs/javascript.png"/><h3>JavaScript</h3></li>
+							<li><img src="images/thumbs/HTML5.png"/><h3>HTML5</h3></li>
+							<li><img src="images/thumbs/css.png"/><h3>CSS3</h3></li>
+							<li><img src="images/thumbs/git.png"/><h3>Git<h3/></li>
+							<li><img src="images/thumbs/github.png"/><h3>Github</h3></li>
+							<li><img src="images/thumbs/postgresql.png"/><h3>PostgreSQL</h3></li>
+						</ul>
+					</section>
+
+				<!-- Three -->
+					<section id="three">
+						<h2>Contact Me</h2>
+						<p>Please email me if you have any questions or potential projects to share.</p>
+						<div class="row">
+							<div class="8u 12u$(small)">
+								<form action="https://formspree.io/duncan.beebe@gmail.com" method="POST">
+									<div class="row uniform 50%">
+										<div class="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
+										<div class="6u$ 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Email" /></div>
+										<div class="12u$"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" /></li>
+									</ul>
+								</form>
+							</div>
+							<div class="4u$ 12u$(small)">
+								<ul class="labeled-icons">
+									<li>
+										<h3 class="icon fa-home"><span class="label">Address</span></h3>
+										Brooklyn<br />
+										United States
+									</li>
+									<li>
+										<h3 class="icon fa-mobile"><span class="label">Phone</span></h3>
+									</li>
+									<li>
+										<h3 class="icon fa-envelope-o"><span class="label">Email</span></h3>
+										<a href="mailto:duncan.beebe@gmail.com">duncan.beebe@gmail.com</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</section>
+
+
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<ul class="icons">
+						<li><a href="https://github.com/duncanbb" class="icon fa-github"><span class="label">Github</span></a></li>
+						<li><a href="https://www.linkedin.com/in/duncan-beebe-251503101" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<!-- <li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li> -->
+						<!-- <li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li> -->
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Duncan Beebe</li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
